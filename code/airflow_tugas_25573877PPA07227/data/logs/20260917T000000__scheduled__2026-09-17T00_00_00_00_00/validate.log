@@ -1,0 +1,60 @@
+2026-09-18 01:16:33 | INFO | DAG run_id: scheduled__2026-09-17T00:00:00+00:00
+2026-09-18 01:16:33 | INFO | Logical date: 2026-09-17 00:00:00+00:00
+2026-09-18 01:16:33 | INFO | Process log file: /opt/airflow/data/logs/20260917T000000__scheduled__2026-09-17T00_00_00_00_00/validate.log
+2026-09-18 01:16:33 | INFO | VALIDATE started
+2026-09-18 01:16:33 | INFO | VALIDATE rows=315 nulls={'sale_id': 0, 'sale_date': 18, 'product_id': 21, 'product_name': 19, 'quantity': 12, 'unit_price': 15, 'total_amount': 11, 'city': 14} full_duplicates=15 duplicate_sale_ids=15 invalid_dates=0 invalid_quantity=0 invalid_price=0
+2026-09-18 01:16:33 | WARNING | Quality issues detected; pipeline continues to TRANSFORM for cleaning
+2026-09-18 01:16:33 | INFO | Done. Returned value was: None
+2026-09-18 01:16:33 | INFO | ::group::Post task execution logs
+2026-09-18 01:16:33 | INFO | Marking task as SUCCESS. dag_id=etl_sederhana_25573877PPA07227, task_id=validate_data, run_id=scheduled__2026-09-17T00:00:00+00:00, execution_date=20260917T000000, start_date=20260918T011632, end_date=20260918T011633
+2026-09-18 01:43:15,354 | INFO | Validasi rows=315 nulls={'sale_id': 0, 'sale_date': 18, 'product_id': 21, 'product_name': 19, 'quantity': 12, 'unit_price': 15, 'total_amount': 11, 'city': 14} duplicate=15
+2026-09-18 01:43:15,355 | INFO | Done. Returned value was: None
+2026-09-18 01:43:15,361 | INFO | ::group::Post task execution logs
+2026-09-18 01:43:15,362 | INFO | Marking task as SUCCESS. dag_id=etl_sederhana_25573877PPA07227, task_id=validate_data, run_id=scheduled__2026-09-17T00:00:00+00:00, execution_date=20260917T000000, start_date=20260918T014315, end_date=20260918T014315
+2026-09-18 01:57:54 | INFO | ========================================
+2026-09-18 01:57:54 | INFO | DAG run_id: scheduled__2026-09-17T00:00:00+00:00
+2026-09-18 01:57:54 | INFO | Logical date: 2026-09-17 00:00:00+00:00
+2026-09-18 01:57:54 | INFO | Process log file: /opt/airflow/data/logs/20260917T000000__scheduled__2026-09-17T00_00_00_00_00/validate.log
+2026-09-18 01:57:54 | INFO | ========================================
+2026-09-18 01:57:54 | INFO | ========================================
+2026-09-18 01:57:54 | INFO | Memulai proses VALIDATE
+2026-09-18 01:57:54 | INFO | ========================================
+2026-09-18 01:57:54 | INFO | Kolom CSV: ['sale_id', 'sale_date', 'product_id', 'product_name', 'quantity', 'unit_price', 'total_amount', 'city']
+2026-09-18 01:57:54 | INFO | Jumlah record yang divalidasi: 315
+2026-09-18 01:57:54 | INFO | Hasil pemeriksaan NULL:
+2026-09-18 01:57:54 | INFO | NULL - sale_id: 0
+2026-09-18 01:57:54 | INFO | NULL - sale_date: 18
+2026-09-18 01:57:54 | WARNING | Ditemukan 18 nilai NULL pada kolom sale_date.
+2026-09-18 01:57:54 | INFO | NULL - product_id: 21
+2026-09-18 01:57:54 | WARNING | Ditemukan 21 nilai NULL pada kolom product_id.
+2026-09-18 01:57:54 | INFO | NULL - product_name: 19
+2026-09-18 01:57:54 | WARNING | Ditemukan 19 nilai NULL pada kolom product_name.
+2026-09-18 01:57:54 | INFO | NULL - quantity: 12
+2026-09-18 01:57:54 | WARNING | Ditemukan 12 nilai NULL pada kolom quantity.
+2026-09-18 01:57:54 | INFO | NULL - unit_price: 15
+2026-09-18 01:57:54 | WARNING | Ditemukan 15 nilai NULL pada kolom unit_price.
+2026-09-18 01:57:54 | INFO | NULL - total_amount: 11
+2026-09-18 01:57:54 | WARNING | Ditemukan 11 nilai NULL pada kolom total_amount.
+2026-09-18 01:57:54 | INFO | NULL - city: 14
+2026-09-18 01:57:54 | WARNING | Ditemukan 14 nilai NULL pada kolom city.
+2026-09-18 01:57:54 | INFO | Duplicate records identik: 15
+2026-09-18 01:57:54 | WARNING | Ditemukan 15 record duplikat identik.
+2026-09-18 01:57:54 | INFO | Sale ID ganda: 15
+2026-09-18 01:57:54 | WARNING | Ditemukan 15 sale_id ganda.
+2026-09-18 01:57:54 | INFO | ----------------------------------------
+2026-09-18 01:57:54 | INFO | Ringkasan VALIDASI
+2026-09-18 01:57:54 | INFO | Jumlah record          : 315
+2026-09-18 01:57:54 | INFO | Total NULL             : 110
+2026-09-18 01:57:54 | INFO | Duplikat identik       : 15
+2026-09-18 01:57:54 | INFO | Sale ID ganda          : 15
+2026-09-18 01:57:54 | INFO | Sale ID tidak valid    : 0
+2026-09-18 01:57:54 | INFO | Quantity tidak valid   : 0
+2026-09-18 01:57:54 | INFO | Unit price tidak valid : 0
+2026-09-18 01:57:54 | INFO | Total tidak valid      : 0
+2026-09-18 01:57:54 | INFO | Tanggal tidak valid    : 0
+2026-09-18 01:57:54 | INFO | ----------------------------------------
+2026-09-18 01:57:54 | WARNING | Masalah kualitas data ditemukan. Pipeline dilanjutkan ke task TRANSFORM untuk melakukan pembersihan.
+2026-09-18 01:57:54 | INFO | VALIDATE selesai.
+2026-09-18 01:57:54 | INFO | Done. Returned value was: None
+2026-09-18 01:57:54 | INFO | ::group::Post task execution logs
+2026-09-18 01:57:54 | INFO | Marking task as SUCCESS. dag_id=etl_sederhana_25573877PPA07227, task_id=validate_data, run_id=scheduled__2026-09-17T00:00:00+00:00, execution_date=20260917T000000, start_date=20260918T015754, end_date=20260918T015754

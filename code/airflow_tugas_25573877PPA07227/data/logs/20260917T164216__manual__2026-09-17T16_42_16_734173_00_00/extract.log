@@ -1,0 +1,8 @@
+2026-09-17 16:42:22 | INFO | DAG run_id: manual__2026-09-17T16:42:16.734173+00:00
+2026-09-17 16:42:22 | INFO | Logical date: 2026-09-17 16:42:16.734173+00:00
+2026-09-17 16:42:22 | INFO | Process log file: /opt/airflow/data/logs/20260917T164216__manual__2026-09-17T16_42_16_734173_00_00/extract.log
+2026-09-17 16:42:22 | INFO | EXTRACT started
+2026-09-17 16:42:22 | INFO | EXTRACT complete: 315 rows -> /opt/airflow/data/staging/sales_staging.csv
+2026-09-17 16:42:22 | INFO | Done. Returned value was: None
+2026-09-17 16:42:22 | INFO | ::group::Post task execution logs
+2026-09-17 16:42:22 | INFO | Marking task as SUCCESS. dag_id=etl_sederhana_25573877PPA07227, task_id=extract_data, run_id=manual__2026-09-17T16:42:16.734173+00:00, execution_date=20260917T164216, start_date=20260917T164221, end_date=20260917T164222

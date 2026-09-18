@@ -1,0 +1,194 @@
+2026-09-18 01:16:38 | INFO | DAG run_id: scheduled__2026-09-17T00:00:00+00:00
+2026-09-18 01:16:38 | INFO | Logical date: 2026-09-17 00:00:00+00:00
+2026-09-18 01:16:38 | INFO | Process log file: /opt/airflow/data/logs/20260917T000000__scheduled__2026-09-17T00_00_00_00_00/transform.log
+2026-09-18 01:16:38 | INFO | TRANSFORM started
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 3
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 9
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 13
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 16
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 19
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 20
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 33
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 34
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 43
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 47
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 53
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 57
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 60
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 69
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 70
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 71
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 72
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 74
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 88
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 99
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 108
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 115
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 118
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 123
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 125
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 131
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 134
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 136
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 139
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 149
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 151
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 155
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 157
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 159
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 162
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 169
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 182
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 189
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 201
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 205
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 211
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 212
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 215
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 220
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 229
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 233
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 237
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 240
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 247
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 248
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 250
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 252
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 261
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 265
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 271
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 272
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 288
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 298
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 302
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 304
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 305
+2026-09-18 01:16:38 | WARNING | Skipping invalid row 315
+2026-09-18 01:16:38 | INFO | TRANSFORM complete stats={'input': 315, 'valid': 238, 'duplicate_rows': 15, 'duplicate_ids': 0, 'skipped': 62, 'recalculated': 10, 'unknown_city': 11} daily_groups=181 city_groups=6
+2026-09-18 01:16:38 | INFO | Done. Returned value was: None
+2026-09-18 01:16:38 | INFO | ::group::Post task execution logs
+2026-09-18 01:16:38 | INFO | Marking task as SUCCESS. dag_id=etl_sederhana_25573877PPA07227, task_id=transform_data, run_id=scheduled__2026-09-17T00:00:00+00:00, execution_date=20260917T000000, start_date=20260918T011638, end_date=20260918T011638
+2026-09-18 01:43:22,208 | INFO | Visualisasi tersimpan di /opt/airflow/data/output/visualizations
+2026-09-18 01:43:22,210 | INFO | Transform selesai; skipped=62
+2026-09-18 01:43:22,211 | INFO | Done. Returned value was: None
+2026-09-18 01:43:22,217 | INFO | ::group::Post task execution logs
+2026-09-18 01:43:22,219 | INFO | Marking task as SUCCESS. dag_id=etl_sederhana_25573877PPA07227, task_id=transform_data, run_id=scheduled__2026-09-17T00:00:00+00:00, execution_date=20260917T000000, start_date=20260918T014321, end_date=20260918T014322
+2026-09-18 01:58:00 | INFO | ========================================
+2026-09-18 01:58:00 | INFO | DAG run_id: scheduled__2026-09-17T00:00:00+00:00
+2026-09-18 01:58:00 | INFO | Logical date: 2026-09-17 00:00:00+00:00
+2026-09-18 01:58:00 | INFO | Process log file: /opt/airflow/data/logs/20260917T000000__scheduled__2026-09-17T00_00_00_00_00/transform.log
+2026-09-18 01:58:00 | INFO | ========================================
+2026-09-18 01:58:00 | INFO | ========================================
+2026-09-18 01:58:00 | INFO | Memulai proses TRANSFORM
+2026-09-18 01:58:00 | INFO | ========================================
+2026-09-18 01:58:00 | WARNING | Baris 3 dilewati: unit_price kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 9 dilewati: product_id kosong
+2026-09-18 01:58:00 | WARNING | Baris 13 dilewati: product_id kosong
+2026-09-18 01:58:00 | WARNING | Baris 16 dilewati: sale_date kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 19 dilewati: sale_date kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 20 dilewati: product_id kosong
+2026-09-18 01:58:00 | WARNING | Baris 33 dilewati: sale_date kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 34 dilewati: quantity kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 43 dilewati: sale_date kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 47 dilewati: sale_date kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 53 dilewati: unit_price kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 57 dilewati: product_id kosong
+2026-09-18 01:58:00 | WARNING | Baris 59 memiliki total_amount kosong atau tidak konsisten. Nilai dihitung ulang menjadi 1750000.00.
+2026-09-18 01:58:00 | WARNING | Baris 60 dilewati: unit_price kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 69 dilewati: product_id kosong; unit_price kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 70 dilewati: unit_price kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 71 dilewati: sale_date kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 72 dilewati: sale_date kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 74 dilewati: quantity kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 88 dilewati: sale_date kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 89 memiliki total_amount kosong atau tidak konsisten. Nilai dihitung ulang menjadi 900000.00.
+2026-09-18 01:58:00 | WARNING | Baris 97 memiliki total_amount kosong atau tidak konsisten. Nilai dihitung ulang menjadi 5400000.00.
+2026-09-18 01:58:00 | WARNING | Baris 98 dilewati karena merupakan record duplikat identik.
+2026-09-18 01:58:00 | WARNING | Baris 99 dilewati: product_id kosong
+2026-09-18 01:58:00 | WARNING | Baris 108 dilewati: product_id kosong
+2026-09-18 01:58:00 | WARNING | Baris 113 dilewati karena merupakan record duplikat identik.
+2026-09-18 01:58:00 | WARNING | Baris 115 dilewati: quantity kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 117 dilewati karena merupakan record duplikat identik.
+2026-09-18 01:58:00 | WARNING | Baris 118 dilewati: sale_date kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 123 dilewati: product_id kosong
+2026-09-18 01:58:00 | WARNING | Baris 125 dilewati: product_id kosong
+2026-09-18 01:58:00 | WARNING | Baris 126 dilewati karena merupakan record duplikat identik.
+2026-09-18 01:58:00 | WARNING | Baris 131 dilewati: quantity kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 134 dilewati: unit_price kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 136 dilewati: product_id kosong
+2026-09-18 01:58:00 | WARNING | Baris 139 dilewati: sale_date kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 141 memiliki total_amount kosong atau tidak konsisten. Nilai dihitung ulang menjadi 1050000.00.
+2026-09-18 01:58:00 | WARNING | Baris 146 memiliki total_amount kosong atau tidak konsisten. Nilai dihitung ulang menjadi 30000000.00.
+2026-09-18 01:58:00 | WARNING | Baris 148 dilewati karena merupakan record duplikat identik.
+2026-09-18 01:58:00 | WARNING | Baris 149 dilewati: sale_date kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 151 dilewati: sale_date kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 155 dilewati: product_id kosong
+2026-09-18 01:58:00 | WARNING | Baris 157 dilewati: quantity kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 159 dilewati: sale_date kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 160 memiliki total_amount kosong atau tidak konsisten. Nilai dihitung ulang menjadi 350000.00.
+2026-09-18 01:58:00 | WARNING | Baris 162 dilewati: unit_price kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 169 dilewati: product_id kosong
+2026-09-18 01:58:00 | WARNING | Baris 182 dilewati: sale_date kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 183 dilewati karena merupakan record duplikat identik.
+2026-09-18 01:58:00 | WARNING | Baris 185 dilewati karena merupakan record duplikat identik.
+2026-09-18 01:58:00 | WARNING | Baris 189 dilewati: quantity kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 194 memiliki total_amount kosong atau tidak konsisten. Nilai dihitung ulang menjadi 450000.00.
+2026-09-18 01:58:00 | WARNING | Baris 201 dilewati: product_id kosong
+2026-09-18 01:58:00 | WARNING | Baris 205 dilewati: product_id kosong
+2026-09-18 01:58:00 | WARNING | Baris 206 dilewati karena merupakan record duplikat identik.
+2026-09-18 01:58:00 | WARNING | Baris 208 dilewati karena merupakan record duplikat identik.
+2026-09-18 01:58:00 | WARNING | Baris 211 dilewati: product_id kosong
+2026-09-18 01:58:00 | WARNING | Baris 212 dilewati: quantity kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 215 dilewati: sale_date kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 220 dilewati: unit_price kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 229 dilewati: product_id kosong
+2026-09-18 01:58:00 | WARNING | Baris 233 dilewati: product_id kosong
+2026-09-18 01:58:00 | WARNING | Baris 236 dilewati karena merupakan record duplikat identik.
+2026-09-18 01:58:00 | WARNING | Baris 237 dilewati: unit_price kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 240 dilewati: unit_price kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 243 dilewati karena merupakan record duplikat identik.
+2026-09-18 01:58:00 | WARNING | Baris 247 dilewati: unit_price kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 248 dilewati: quantity kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 249 dilewati karena merupakan record duplikat identik.
+2026-09-18 01:58:00 | WARNING | Baris 250 dilewati: unit_price kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 252 dilewati: quantity kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 261 dilewati: unit_price kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 265 dilewati: quantity kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 266 memiliki total_amount kosong atau tidak konsisten. Nilai dihitung ulang menjadi 1750000.00.
+2026-09-18 01:58:00 | WARNING | Baris 271 dilewati: unit_price kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 272 dilewati: quantity kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 280 memiliki total_amount kosong atau tidak konsisten. Nilai dihitung ulang menjadi 350000.00.
+2026-09-18 01:58:00 | WARNING | Baris 285 dilewati karena merupakan record duplikat identik.
+2026-09-18 01:58:00 | WARNING | Baris 288 dilewati: product_id kosong
+2026-09-18 01:58:00 | WARNING | Baris 290 dilewati karena merupakan record duplikat identik.
+2026-09-18 01:58:00 | WARNING | Baris 292 memiliki total_amount kosong atau tidak konsisten. Nilai dihitung ulang menjadi 300000.00.
+2026-09-18 01:58:00 | WARNING | Baris 294 dilewati karena merupakan record duplikat identik.
+2026-09-18 01:58:00 | WARNING | Baris 298 dilewati: sale_date kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 302 dilewati: quantity kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 304 dilewati: unit_price kosong atau tidak valid
+2026-09-18 01:58:00 | WARNING | Baris 305 dilewati: product_id kosong
+2026-09-18 01:58:00 | WARNING | Baris 315 dilewati: product_id kosong
+2026-09-18 01:58:00 | INFO | ========================================
+2026-09-18 01:58:00 | INFO | Memulai pembuatan VISUALISASI
+2026-09-18 01:58:00 | INFO | ========================================
+2026-09-18 01:58:01 | INFO | Visualisasi harian disimpan: /opt/airflow/data/output/visualizations/sales_daily_trend.png
+2026-09-18 01:58:01 | INFO | Visualisasi kota disimpan: /opt/airflow/data/output/visualizations/sales_by_city.png
+2026-09-18 01:58:01 | INFO | Pembuatan VISUALISASI selesai.
+2026-09-18 01:58:01 | INFO | ----------------------------------------
+2026-09-18 01:58:01 | INFO | Ringkasan TRANSFORM
+2026-09-18 01:58:01 | INFO | Record input                : 315
+2026-09-18 01:58:01 | INFO | Record valid                : 238
+2026-09-18 01:58:01 | INFO | Duplikat identik dihapus    : 15
+2026-09-18 01:58:01 | INFO | Sale ID ganda dihapus       : 0
+2026-09-18 01:58:01 | INFO | Record tidak valid          : 62
+2026-09-18 01:58:01 | INFO | Total amount dihitung ulang : 10
+2026-09-18 01:58:01 | INFO | Kota diisi Unknown          : 11
+2026-09-18 01:58:01 | INFO | Jumlah tanggal agregasi     : 181
+2026-09-18 01:58:01 | INFO | Jumlah kota agregasi        : 6
+2026-09-18 01:58:01 | INFO | ----------------------------------------
+2026-09-18 01:58:01 | INFO | Agregasi harian disimpan: /opt/airflow/data/staging/sales_daily_transformed.csv
+2026-09-18 01:58:01 | INFO | Agregasi kota disimpan: /opt/airflow/data/staging/sales_by_city_transformed.csv
+2026-09-18 01:58:01 | INFO | TRANSFORM selesai.
+2026-09-18 01:58:01 | INFO | Done. Returned value was: None
+2026-09-18 01:58:01 | INFO | ::group::Post task execution logs
+2026-09-18 01:58:01 | INFO | Marking task as SUCCESS. dag_id=etl_sederhana_25573877PPA07227, task_id=transform_data, run_id=scheduled__2026-09-17T00:00:00+00:00, execution_date=20260917T000000, start_date=20260918T015800, end_date=20260918T015801

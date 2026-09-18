@@ -1,0 +1,9 @@
+2026-09-17 16:42:28 | INFO | DAG run_id: manual__2026-09-17T16:42:16.734173+00:00
+2026-09-17 16:42:28 | INFO | Logical date: 2026-09-17 16:42:16.734173+00:00
+2026-09-17 16:42:28 | INFO | Process log file: /opt/airflow/data/logs/20260917T164216__manual__2026-09-17T16_42_16_734173_00_00/validate.log
+2026-09-17 16:42:28 | INFO | VALIDATE started
+2026-09-17 16:42:28 | INFO | VALIDATE rows=315 nulls={'sale_id': 0, 'sale_date': 18, 'product_id': 21, 'product_name': 19, 'quantity': 12, 'unit_price': 15, 'total_amount': 11, 'city': 14} full_duplicates=15 duplicate_sale_ids=15 invalid_dates=0 invalid_quantity=0 invalid_price=0
+2026-09-17 16:42:28 | WARNING | Quality issues detected; pipeline continues to TRANSFORM for cleaning
+2026-09-17 16:42:28 | INFO | Done. Returned value was: None
+2026-09-17 16:42:28 | INFO | ::group::Post task execution logs
+2026-09-17 16:42:28 | INFO | Marking task as SUCCESS. dag_id=etl_sederhana_25573877PPA07227, task_id=validate_data, run_id=manual__2026-09-17T16:42:16.734173+00:00, execution_date=20260917T164216, start_date=20260917T164227, end_date=20260917T164228

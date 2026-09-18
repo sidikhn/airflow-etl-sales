@@ -1,0 +1,28 @@
+2026-09-18 01:16:27 | INFO | DAG run_id: scheduled__2026-09-17T00:00:00+00:00
+2026-09-18 01:16:27 | INFO | Logical date: 2026-09-17 00:00:00+00:00
+2026-09-18 01:16:27 | INFO | Process log file: /opt/airflow/data/logs/20260917T000000__scheduled__2026-09-17T00_00_00_00_00/extract.log
+2026-09-18 01:16:27 | INFO | EXTRACT started
+2026-09-18 01:16:27 | INFO | EXTRACT complete: 315 rows -> /opt/airflow/data/staging/sales_staging.csv
+2026-09-18 01:16:27 | INFO | Done. Returned value was: None
+2026-09-18 01:16:27 | INFO | ::group::Post task execution logs
+2026-09-18 01:16:27 | INFO | Marking task as SUCCESS. dag_id=etl_sederhana_25573877PPA07227, task_id=extract_data, run_id=scheduled__2026-09-17T00:00:00+00:00, execution_date=20260917T000000, start_date=20260918T011627, end_date=20260918T011627
+2026-09-18 01:43:09,398 | INFO | Extract selesai: /opt/airflow/data/staging/sales_staging.csv
+2026-09-18 01:43:09,400 | INFO | Done. Returned value was: None
+2026-09-18 01:43:09,406 | INFO | ::group::Post task execution logs
+2026-09-18 01:43:09,407 | INFO | Marking task as SUCCESS. dag_id=etl_sederhana_25573877PPA07227, task_id=extract_data, run_id=scheduled__2026-09-17T00:00:00+00:00, execution_date=20260917T000000, start_date=20260918T014309, end_date=20260918T014309
+2026-09-18 01:57:49 | INFO | ========================================
+2026-09-18 01:57:49 | INFO | DAG run_id: scheduled__2026-09-17T00:00:00+00:00
+2026-09-18 01:57:49 | INFO | Logical date: 2026-09-17 00:00:00+00:00
+2026-09-18 01:57:49 | INFO | Process log file: /opt/airflow/data/logs/20260917T000000__scheduled__2026-09-17T00_00_00_00_00/extract.log
+2026-09-18 01:57:49 | INFO | ========================================
+2026-09-18 01:57:49 | INFO | ========================================
+2026-09-18 01:57:49 | INFO | Memulai proses EXTRACT
+2026-09-18 01:57:49 | INFO | ========================================
+2026-09-18 01:57:49 | INFO | File sumber ditemukan: /opt/airflow/data/raw/sales.csv
+2026-09-18 01:57:49 | INFO | Data berhasil diekstrak.
+2026-09-18 01:57:49 | INFO | File staging: /opt/airflow/data/staging/sales_staging.csv
+2026-09-18 01:57:49 | INFO | Jumlah record: 315
+2026-09-18 01:57:49 | INFO | EXTRACT selesai.
+2026-09-18 01:57:49 | INFO | Done. Returned value was: None
+2026-09-18 01:57:49 | INFO | ::group::Post task execution logs
+2026-09-18 01:57:49 | INFO | Marking task as SUCCESS. dag_id=etl_sederhana_25573877PPA07227, task_id=extract_data, run_id=scheduled__2026-09-17T00:00:00+00:00, execution_date=20260917T000000, start_date=20260918T015749, end_date=20260918T015749

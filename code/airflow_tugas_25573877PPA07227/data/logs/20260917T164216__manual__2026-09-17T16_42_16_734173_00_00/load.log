@@ -1,0 +1,9 @@
+2026-09-17 16:42:41 | INFO | DAG run_id: manual__2026-09-17T16:42:16.734173+00:00
+2026-09-17 16:42:41 | INFO | Logical date: 2026-09-17 16:42:16.734173+00:00
+2026-09-17 16:42:41 | INFO | Process log file: /opt/airflow/data/logs/20260917T164216__manual__2026-09-17T16_42_16_734173_00_00/load.log
+2026-09-17 16:42:41 | INFO | LOAD started
+2026-09-17 16:42:42 | INFO | LOAD wrote 181 rows to /opt/airflow/data/output/sales_daily.csv
+2026-09-17 16:42:42 | INFO | LOAD wrote 6 rows to /opt/airflow/data/output/sales_by_city.csv
+2026-09-17 16:42:42 | INFO | Done. Returned value was: None
+2026-09-17 16:42:42 | INFO | ::group::Post task execution logs
+2026-09-17 16:42:42 | INFO | Marking task as SUCCESS. dag_id=etl_sederhana_25573877PPA07227, task_id=load_data, run_id=manual__2026-09-17T16:42:16.734173+00:00, execution_date=20260917T164216, start_date=20260917T164241, end_date=20260917T164242

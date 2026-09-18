@@ -1,0 +1,49 @@
+@"
+# Python
+__pycache__/
+*.py[cod]
+
+# Airflow runtime
+airflow.db
+airflow.db-shm
+airflow.db-wal
+*.pid
+
+# Environment dan rahasia
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Hasil sementara ETL
+data/staging/*
+!data/staging/.gitkeep
+
+# Log per trigger
+data/logs/*
+!data/logs/.gitkeep
+
+# LaTeX temporary files
+*.aux
+*.toc
+*.lof
+*.lot
+*.out
+*.idx
+*.ilg
+*.ind
+*.synctex.gz
+
+# Folder distribusi lokal
+.dist/
+
+# Editor dan OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+"@ | Set-Content .gitignore
+
+New-Item data\staging\.gitkeep -ItemType File -Force
+New-Item data\logs\.gitkeep -ItemType File -Force
